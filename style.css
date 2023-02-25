@@ -91,7 +91,7 @@
 .middle-container{
     width:900px;
     padding-bottom:80px;
-    padding-top:50px;
+    padding-top:40px;
 }
 
 .title{
@@ -99,7 +99,7 @@
     font-size:36px;
     display:flex; 
     justify-content:center;
-    padding-bottom:30px;
+    padding-bottom:40px;
     color:#1F2937;
 }
 
