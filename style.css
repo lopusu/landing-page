@@ -86,31 +86,51 @@
 .middle{
     display:flex;
     justify-content:center;
-    padding:20px 0;
 }
 
 .middle-container{
     width:900px;
-    height:250px;
+    padding-bottom:80px;
+    padding-top:50px;
 }
 
 .title{
-    display:flex;
     font-weight:bold;
+    font-size:36px;
+    display:flex; 
     justify-content:center;
-    font-size:27px;
+    padding-bottom:30px;
+    color:#1F2937;
 }
 
 .images{
     display:flex;
     justify-content:space-around;
-    align-items:flex-end
 }
 
 .images-container{
     display:flex;
-    align-items:flex-end;
+    gap:30px
 }
+
+    
+.image-item{
+    width:170px;
+}
+
+.image-item > p{
+    text-align:center;
+    color:gray;
+}
+
+.image-item > img{
+    height:170px;
+    width:170px;
+    margin-bottom:10px;
+    border: 4px solid #3882F6;
+    border-radius:15px;
+}
+
 
 .footer{
     display:flex;
